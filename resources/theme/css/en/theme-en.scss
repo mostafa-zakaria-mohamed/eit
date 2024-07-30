@@ -223,6 +223,7 @@ hr {
         h2 {
             color: rgba(var(--clr-one), 1);
             text-transform: uppercase;
+            font-size: 2.5rem;
         }
     }
     .short-description {
@@ -339,6 +340,7 @@ hr {
         h2 {
             color: white;
             text-transform: uppercase;
+            font-size: 2.5rem;
         }
     }
     .swiper {
@@ -421,6 +423,7 @@ hr {
         h2 {
             color: white;
             text-transform: uppercase;
+            font-size: 2.5rem;
         }
         .btn-rose {
             width: auto;
@@ -504,6 +507,88 @@ hr {
                 &.swiper-pagination-bullet-active {
                     width: 25px;
                 } 
+            }
+        }
+    }
+}
+
+// Solutions
+.solutions {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: url(../../images/solutions-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        mix-blend-mode: luminosity;
+        opacity: 0.5;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        z-index: -1;
+        margin: 0px auto;
+        background-position: center top;
+    }
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(var(--clr-two), 1);
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        z-index: -2;
+        margin: 0px auto;
+    }
+    .heading {
+        margin-bottom: 30px;
+        p {
+            color: white;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+        }
+    }
+    .accordion {
+        .accordion-item {
+            border: ipx solid var(--clear);
+            margin-bottom: 15px;
+            .accordion-header {
+                .accordion-button {
+                    background-color: rgba($color: var(--clr-four), $alpha: 1.0);
+                    box-shadow: none;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                    font-size: 1.125rem;
+                    font-weight: bold;
+                    &.collapsed {
+                        background-color: rgba($color: var(--clr-three), $alpha: 1.0);
+                    }
+                    &::after {
+                        width: 24px;
+                        height: 24px;
+                        background-color: rgba($color: #FFFFFF, $alpha: 0.7);
+                        mix-blend-mode: screen;
+                        padding: 5px;
+                        border-radius: 3px;
+                        background-size: auto;
+                    }
+                }
+            }
+            .accordion-collapse {
+                .accordion-body {
+
+                }
             }
         }
     }

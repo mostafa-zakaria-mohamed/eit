@@ -214,6 +214,7 @@ hr {
 .overview .heading h2 {
   color: rgba(var(--clr-one), 1);
   text-transform: uppercase;
+  font-size: 2.5rem;
 }
 .overview .short-description {
   margin-bottom: 30px;
@@ -330,6 +331,7 @@ hr {
 .services .heading h2 {
   color: white;
   text-transform: uppercase;
+  font-size: 2.5rem;
 }
 .services .swiper {
   padding: 30px 0px;
@@ -406,6 +408,7 @@ hr {
 .latest-projects .heading h2 {
   color: white;
   text-transform: uppercase;
+  font-size: 2.5rem;
 }
 .latest-projects .heading .btn-rose {
   width: auto;
@@ -484,4 +487,76 @@ hr {
 }
 .latest-projects .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 25px;
+}
+
+.solutions {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  position: relative;
+  z-index: 0;
+}
+.solutions::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/solutions-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.5;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  margin: 0px auto;
+  background-position: center top;
+}
+.solutions::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(var(--clr-two), 1);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: -2;
+  margin: 0px auto;
+}
+.solutions .heading {
+  margin-bottom: 30px;
+}
+.solutions .heading p {
+  color: white;
+  text-transform: uppercase;
+}
+.solutions .heading h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+.solutions .accordion .accordion-item {
+  border: ipx solid var(--clear);
+  margin-bottom: 15px;
+}
+.solutions .accordion .accordion-item .accordion-header .accordion-button {
+  background-color: rgba(var(--clr-four), 1);
+  box-shadow: none;
+  color: rgba(var(--clr-one), 1);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.solutions .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+  background-color: rgba(var(--clr-three), 1);
+}
+.solutions .accordion .accordion-item .accordion-header .accordion-button::after {
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.7);
+  mix-blend-mode: screen;
+  padding: 5px;
+  border-radius: 3px;
+  background-size: auto;
 }/*# sourceMappingURL=theme-en.css.map */
