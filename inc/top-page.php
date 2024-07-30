@@ -1,0 +1,12 @@
+<div class="top-page">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="page-name">
+                    اسم الصفحة هنا
+                </h1>
+            </div>
+        </div>
+    </div>
+    <img src="./resources/theme/images/news-top-page-banner.png" alt="">
+</div>
