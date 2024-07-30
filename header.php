@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="./resources/package/bootstrap-icons.css">
     <link rel="stylesheet" href="./resources/library/remixicon/remixicon.css">
     <link rel="stylesheet" href="./resources/library/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./resources/theme/css/ar/theme-en.css">
+    <link rel="stylesheet" href="./resources/theme/css/en/theme-en.css">
 </head>
 <body>
-
 <header class="header">
     <div class="container">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-expand-lg bg-light">
+                <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="#">
                         <img src="./resources/theme/images/logo-w.png" alt="">
                     </a>
