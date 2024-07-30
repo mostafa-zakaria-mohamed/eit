@@ -74,56 +74,56 @@
         </div>
         <div class="row">
             <div class="col">
-                <div class="swiper serviceSwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                <div class="swiper-wrapper" id="swiper-wrapper-1012e06a6a3e63ac0" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
-                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3" style="width: 418.667px; margin-right: 20px;">
-                        <div class="service-item">
-                            <figure>
-                                <img src="./resources/theme/images/service-icon-1.png" alt="">
-                            </figure>
-                            <h4>
-                                <a href="#">
-                                Virtual Reality
-                                </a>
-                            </h4>
-                            <p class="short-description">
-                            Designing and developing Virtual Reality (VR) and Augmented Reality (AR) experiences
-                            </p>
+                <div class="swiper serviceSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-item">
+                                <figure>
+                                    <img src="./resources/theme/images/service-icon-1.png" alt="">
+                                </figure>
+                                <h4>
+                                    <a href="#">
+                                    Virtual Reality
+                                    </a>
+                                </h4>
+                                <p class="short-description">
+                                Designing and developing Virtual Reality (VR) and Augmented Reality (AR) experiences
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item">
+                                <figure>
+                                    <img src="./resources/theme/images/service-icon-2.png" alt="">
+                                </figure>
+                                <h4>
+                                    <a href="#">
+                                    Augmented Reality
+                                    </a>
+                                </h4>
+                                <p class="short-description">
+                                Providing technology consultancy in the field of Augmented Reality and Virtual Reality
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item">
+                                <figure>
+                                    <img src="./resources/theme/images/service-icon-3.png" alt="">
+                                </figure>
+                                <h4>
+                                    <a href="#">
+                                    3D Games
+                                    </a>
+                                </h4>
+                                <p class="short-description">
+                                Development of 3D games and their applications
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3" style="width: 418.667px; margin-right: 20px;">
-                        <div class="service-item">
-                            <figure>
-                                <img src="./resources/theme/images/service-icon-2.png" alt="">
-                            </figure>
-                            <h4>
-                                <a href="#">
-                                Augmented Reality
-                                </a>
-                            </h4>
-                            <p class="short-description">
-                            Providing technology consultancy in the field of Augmented Reality and Virtual Reality
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="3 / 3" style="width: 418.667px; margin-right: 20px;">
-                        <div class="service-item">
-                            <figure>
-                                <img src="./resources/theme/images/service-icon-3.png" alt="">
-                            </figure>
-                            <h4>
-                                <a href="#">
-                                3D Games
-                                </a>
-                            </h4>
-                            <p class="short-description">
-                            Development of 3D games and their applications
-                            </p>
-                        </div>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
             </div>
         </div>
     </div>
@@ -132,7 +132,7 @@
 <section class="latest-projects">
     <div class="container">
         <div class="row">
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12">
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-12">
                 <div class="heading">
                     <p class="pre-title">
                         Choose one of our
@@ -145,10 +145,10 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12">
-            <div class="swiper projectSwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                <div class="swiper-wrapper" id="swiper-wrapper-15461c6ed138fbe1" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(292px, 0px, 0px);">
-                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6" style="width: 272px; margin-right: 20px;">
+            <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-12">
+            <div class="swiper projectSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                         <div class="project-item">
                             <figure>
                                 <img src="./resources/theme/images/project-thumb-1.png" alt="">
@@ -160,7 +160,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 6" style="width: 272px; margin-right: 20px;">
+                    <div class="swiper-slide">
                         <div class="project-item">
                             <figure>
                                 <img src="./resources/theme/images/project-thumb-2.png" alt="">
@@ -172,7 +172,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="swiper-slide" role="group" aria-label="3 / 6" style="width: 272px; margin-right: 20px;">
+                    <div class="swiper-slide">
                         <div class="project-item">
                             <figure>
                                 <img src="./resources/theme/images/project-thumb-1.png" alt="">
@@ -184,12 +184,20 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="swiper-slide" role="group" aria-label="4 / 6" style="width: 272px; margin-right: 20px;">Slide 2</div>
-                    <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 272px; margin-right: 20px;">Slide 3</div>
-                    <div class="swiper-slide" role="group" aria-label="6 / 6" style="width: 272px; margin-right: 20px;">Slide 4</div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <figure>
+                                <img src="./resources/theme/images/project-thumb-1.png" alt="">
+                            </figure>
+                            <h5>
+                                <a href="#">
+                                    project name here
+                                </a>
+                            </h5>
+                        </div>
                     </div>
                     <div class="swiper-pagination"></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
             </div>
         </div>
     </div>

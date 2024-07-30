@@ -386,6 +386,7 @@ hr {
 }
 .latest-projects .heading {
   margin-bottom: 30px;
+  padding: 100px 0;
 }
 .latest-projects .heading p {
   color: white;
@@ -428,4 +429,32 @@ hr {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
+}
+.latest-projects .swiper .swiper-wrapper .swiper-slide .project-item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.latest-projects .swiper .swiper-wrapper .swiper-slide .project-item figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.latest-projects .swiper .swiper-wrapper .swiper-slide .project-item h5 {
+  background-color: rgba(var(--clr-two), 0.8);
+  padding: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.latest-projects .swiper .swiper-wrapper .swiper-slide .project-item h5 a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
 }/*# sourceMappingURL=theme-en.css.map */

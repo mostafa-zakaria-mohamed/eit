@@ -1,37 +1,11 @@
 $(document).ready(function() {
 
-    // $(window).scroll(function(){
-    //     if ($(window).scrollTop() >= 120) {
-    //         $('header').addClass('fixed-top');
-    //         $('.logo').addClass('hide');
-    //         $('.logo-w').removeClass('hide');
-    //         $('.logo-w').addClass('show');
-    //     }
-    //     else {
-    //         $('header').removeClass('fixed-top');
-    //         $('.logo').removeClass('hide');
-    //         $('.logo-w').removeClass('show');
-    //         $('.logo-w').addClass('hide');
-    //     }
-    // });
-
-    // Hero Slider
-    var swiper = new Swiper(".heroSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
-
     // Service Slider
     var swiper = new Swiper(".serviceSwiper", {
         slidesPerView: 3,
         spaceBetween: 20,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+        pagination: {
+            el: ".swiper-pagination",
         },
         breakpoints: {
             360: {
@@ -39,16 +13,16 @@ $(document).ready(function() {
                 spaceBetween: 10,
             },
             640: {
-              slidesPerView: 1,
-              spaceBetween: 10,
+                slidesPerView: 1,
+                spaceBetween: 10,
             },
             768: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+                slidesPerView: 2,
+                spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 3,
-              spaceBetween: 20,
+                slidesPerView: 3,
+                spaceBetween: 20,
             },
         },
     });
@@ -56,28 +30,28 @@ $(document).ready(function() {
 
     // Latest Project Slider
     var swiper = new Swiper(".projectSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+        slidesPerView: 2,
+        spaceBetween: 10,
+        centeredSlides: true,
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
         },
         breakpoints: {
             360: {
-                slidesPerView: 1,
                 spaceBetween: 10,
             },
             640: {
-              slidesPerView: 1,
-              spaceBetween: 10,
+                spaceBetween: 10,
             },
             768: {
-              slidesPerView: 1,
-              spaceBetween: 20,
+                spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 1,
-              spaceBetween: 20,
+                spaceBetween: 20,
             },
         },
     });
