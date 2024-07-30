@@ -377,6 +377,18 @@ hr {
 .services .swiper .swiper-wrapper .swiper-slide .service-item:hover p {
   color: rgba(255, 255, 255, 0.6);
 }
+.services .swiper .swiper-pagination {
+  bottom: -6px;
+}
+.services .swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgba(var(--clr-two), 1);
+}
+.services .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 25px;
+}
 
 .latest-projects {
   width: 100%;
@@ -385,7 +397,6 @@ hr {
   padding: 100px 0px;
 }
 .latest-projects .heading {
-  margin-bottom: 30px;
   padding: 100px 0;
 }
 .latest-projects .heading p {
@@ -399,6 +410,7 @@ hr {
 .latest-projects .heading .btn-rose {
   width: auto;
   height: 60px;
+  margin-top: 30px;
   background-color: rgba(var(--clr-one), 1);
   color: rgba(var(--clr-two), 1);
   font-weight: normal;
@@ -430,6 +442,9 @@ hr {
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
+.latest-projects .swiper {
+  padding: 20px 0;
+}
 .latest-projects .swiper .swiper-wrapper .swiper-slide .project-item {
   width: 100%;
   height: auto;
@@ -457,4 +472,16 @@ hr {
 .latest-projects .swiper .swiper-wrapper .swiper-slide .project-item h5 a {
   text-decoration: none;
   color: rgba(var(--clr-one), 1);
+}
+.latest-projects .swiper .swiper-pagination {
+  bottom: -6px;
+}
+.latest-projects .swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgba(var(--clr-one), 1);
+}
+.latest-projects .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 25px;
 }/*# sourceMappingURL=theme-en.css.map */

@@ -121,6 +121,21 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="service-item">
+                                <figure>
+                                    <img src="./resources/theme/images/service-icon-3.png" alt="">
+                                </figure>
+                                <h4>
+                                    <a href="#">
+                                    3D Games
+                                    </a>
+                                </h4>
+                                <p class="short-description">
+                                Development of 3D games and their applications
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -141,7 +156,7 @@
                         projects
                     </h2>
                     <a href="#" class="btn btn-rose">
-                        discover all projects
+                        Discover All
                     </a>
                 </div>
             </div>
@@ -196,11 +211,27 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="solutions">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="heading">
+                    <p class="pre-title">
+                        our solutions
+                    </p>
+                    <h2 class="title">
+                        Solutions
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php include('footer.php'); ?>
