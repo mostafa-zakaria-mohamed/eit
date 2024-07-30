@@ -61,18 +61,40 @@ hr {
         .navbar-collapse {
             .navbar-nav {
                 .nav-item {
+                    position: relative;
+                    z-index: 0;
                     .nav-link {
                         font-family: Orbitron, sans-serif;
                         color: rgba(83, 87, 166, 0.8);
                         font-size: 1.125rem;
                         text-transform: uppercase;
                         transition: 500ms linear;
+                        &::after {
+                            content: "";
+                            width: 25px;
+                            height: 1px;
+                            background-color: rgba($color: var(--clear), $alpha: 1.0);
+                            position: absolute;
+                            left: 8px;
+                            bottom: 0;
+                            z-index: 0;
+                        }
                         &:hover {
                             color: rgba(var(--clr-one), 1);
                             transition: 500ms linear;
                         }
                         &.active {
                             color: rgba(var(--clr-one), 1);
+                            &::after {
+                                content: "";
+                                width: 25px;
+                                height: 1px;
+                                background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                                position: absolute;
+                                left: 8px;
+                                bottom: 0;
+                                z-index: 0;
+                            }
                         }
                     }
                 }
@@ -83,6 +105,13 @@ hr {
                 .btn {
                     width: auto;
                     background-color: var(--clear);
+                    span {
+                        svg {
+                            width: 24px;
+                            height: 24px;
+                            fill: rgba($color: var(--clr-one), $alpha: 1.0);
+                        }
+                    }
                 }
                 .dropdown-menu {
                     background-color: rgba(var(--clr-two), 1);
@@ -284,7 +313,7 @@ hr {
         left: 0px;
         right: 0px;
         top: 0px;
-        z-index: 1;
+        z-index: -1;
         margin: 0px auto;
         background-position: center top;
     }
@@ -297,7 +326,7 @@ hr {
         left: 0px;
         right: 0px;
         top: 0px;
-        z-index: -1;
+        z-index: -2;
         margin: 0px auto;
     }
     .heading {
