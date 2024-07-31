@@ -8,5 +8,4 @@
             </div>
         </div>
     </div>
-    <img src="./resources/theme/images/news-top-page-banner.png" alt="">
 </div>
