@@ -1,7 +1,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-8 col-xl-8 col-lg-9 col-md-12">
+                <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-12">
                     <div class="row">
                         <div class="col-lg-4 col-md-12">
                             <div class="block">
@@ -70,11 +70,6 @@
                                             Saturday :Closed
                                         </p>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            privacy policy
-                                        </a>
-                                    </li>
                                 </ul>
                             </div>
                             <div class="block">
@@ -132,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-3 col-md-12">
+                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-12">
                     <figure>
                         <img src="./resources/theme/images/footer-img.png" alt="">
                     </figure>

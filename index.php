@@ -33,23 +33,25 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
-                <div class="short-description">
-                    <p>
-                    Effective Impact Technology Company (EIT) strives to deliver comprehensive smart solutions for business development, tackling challenges across various fields. 
-                    </p>
-                    <p>
-                    We offer consultancy services based on precise project needs analysis, outlining executable steps, and supervising implementation. 
-                    </p>
-                    <p>
-                    This includes establishing technical infrastructures, building electronic networks, and utilizing the latest suitable technologies for each project
-                    </p>
+            <div class="col-xxl-7 col-xl-7 col-lg-6 col-md-12">
+                <div class="text-wrapper">
+                    <div class="short-description">
+                        <p>
+                        Effective Impact Technology Company (EIT) strives to deliver comprehensive smart solutions for business development, tackling challenges across various fields. 
+                        </p>
+                        <p>
+                        We offer consultancy services based on precise project needs analysis, outlining executable steps, and supervising implementation. 
+                        </p>
+                        <p>
+                        This includes establishing technical infrastructures, building electronic networks, and utilizing the latest suitable technologies for each project
+                        </p>
+                    </div>
+                    <a href="#" class="btn btn-rose">
+                        Learn More
+                    </a>
                 </div>
-                <a href="#" class="btn btn-rose">
-                    Learn More
-                </a>
             </div>
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+            <div class="col-xxl-5 col-xl-5 col-lg-6 col-md-12">
                 <div class="image">
                     <img src="./resources/theme/images/overview-img.png" alt="">
                 </div>

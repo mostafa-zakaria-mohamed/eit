@@ -216,7 +216,6 @@ hr {
     background-color: rgba(var(--clr-two), 1);
     position: relative;
     z-index: 0;
-    padding: 100px 0px;
     overflow: hidden;
     .heading {
         margin-bottom: 30px;
@@ -226,45 +225,48 @@ hr {
             font-size: 2.5rem;
         }
     }
-    .short-description {
-        margin-bottom: 30px;
-        p {
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 15px;
-            line-height: 1.5;
+    .text-wrapper {
+        padding: 0px 0px 20px;
+        .short-description {
+            margin-bottom: 30px;
+            p {
+                color: rgba(255, 255, 255, 0.7);
+                margin-bottom: 15px;
+                line-height: 1.5;
+            }
         }
-    }
-    .btn-rose {
-        width: auto;
-        height: 60px;
-        background-color: rgba(var(--clr-one), 1);
-        color: rgba(var(--clr-two), 1);
-        font-weight: normal;
-        position: relative;
-        z-index: 99;
-        padding: 1rem 1.2rem;
-        border-radius: 0px;
-        &::after {
-            content: "";
-            width: 100%;
+        .btn-rose {
+            width: auto;
             height: 60px;
-            background-color: var(--clear);
-            position: absolute;
-            left: 10px;
-            bottom: -10px;
-            z-index: -10;
-            border-right: 1px solid rgba(var(--clr-one), 1);
-            border-bottom: 1px solid rgba(var(--clr-one), 1);
-            transition: 500ms linear;
-        }
-        &:hover {
-            background-color: rgba($color: #FFFFFF, $alpha: 1.0);
+            background-color: rgba(var(--clr-one), 1);
             color: rgba(var(--clr-two), 1);
-            transition: 500ms linear;
+            font-weight: normal;
+            position: relative;
+            z-index: 99;
+            padding: 1rem 1.2rem;
+            border-radius: 0px;
             &::after {
-                border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
-                border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                content: "";
+                width: 100%;
+                height: 60px;
+                background-color: var(--clear);
+                position: absolute;
+                left: 10px;
+                bottom: -10px;
+                z-index: -10;
+                border-right: 1px solid rgba(var(--clr-one), 1);
+                border-bottom: 1px solid rgba(var(--clr-one), 1);
                 transition: 500ms linear;
+            }
+            &:hover {
+                background-color: rgba($color: #FFFFFF, $alpha: 1.0);
+                color: rgba(var(--clr-two), 1);
+                transition: 500ms linear;
+                &::after {
+                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    transition: 500ms linear;
+                }
             }
         }
     }
@@ -733,6 +735,7 @@ hr {
     height: auto;
     margin: 0 auto;
     padding: 50px 0 0;
+    overflow: hidden;
     background-color: rgba($color: var(--clr-two), $alpha: 1.0);
     figure {
         margin-bottom: 0;
@@ -742,6 +745,49 @@ hr {
             margin: 0 auto;
             object-fit: cover;
             mix-blend-mode: luminosity;
+            position: relative;
+            bottom: -30px;
+        }
+    }
+    .block {
+        margin-bottom: 30px;
+        h5 {
+            color: rgba($color: #FFFFFF, $alpha: 1.0);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            li {
+                margin-bottom: 10px;
+                a {
+                    text-decoration: none;
+                    color: rgba($color: #FFFFFF, $alpha: 0.7);
+                    transition: 500ms linear;
+                    text-transform: capitalize;
+                    &:hover {
+                        color: rgba($color: var(--clr-one), $alpha: 1.0);
+                        transition: 500ms linear;
+                    }
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                p {
+                    color: rgba($color: #FFFFFF, $alpha: 0.7);
+                }
+            }
+            &.social-media {
+                display: flex;
+                justify-content: flex-start;
+                li {
+                    margin-right: 5px;
+                }
+            }
         }
     }
 }
@@ -808,5 +854,20 @@ hr {
 
 // `xxl` applies to x-large devices (large desktops, less than 1400px)
 @media (min-width: 1280px) and (max-width: 1399.98px) {
-
+    .hero {
+        img {
+            right: -140px;
+        }
+    }
+    .overview {
+        padding: 50px 0;
+        .image {
+            img {
+                height: 490px;
+            }
+            &::after {
+                width: 42%;
+            }
+        }
+    }
 }
