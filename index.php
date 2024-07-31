@@ -237,26 +237,36 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
-                        </button>
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Augmented Reality (AR) Applications
+                            </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                            <div class="accordion-body">
+                                <p>
+                                Augmented Reality (AR) technology is a counterpart of VR, distinguished by its ability to merge the real world with an interactive virtual one. Users interact with the enhanced environment through devices such as smartphones, tablets, and smart glasses. 
+                                </p>
+                                <p>
+                                AR has a variety of applications across a range of sectors (gaming, education, culture, heritage, training, tourism...). 
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
+                            Virtual Reality (VR) Applications
                         </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                            <div class="accordion-body">
+                                <p>
+                                Augmented Reality (AR) technology is a counterpart of VR, distinguished by its ability to merge the real world with an interactive virtual one. Users interact with the enhanced environment through devices such as smartphones, tablets, and smart glasses. 
+                                </p>
+                                <p>
+                                AR has a variety of applications across a range of sectors (gaming, education, culture, heritage, training, tourism...). 
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -276,4 +286,42 @@
         </div>
     </div>
 </section>
+
+<section class="video">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="heading">
+                    <p class="pre-title">
+                        New adventures
+                    </p>
+                    <h2 class="title">
+                        WE TURN YOUR DREAMS INTO REALITY
+                    </h2>
+                    <p>
+                        We can create whatever games you desire, a virtual reality, an educational visualization, or anything you want
+                    </p>
+                    <a href="#" class="btn btn-rose">
+                        Take A Step Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="video-wrapper">
+                    <figure>
+                        <img src="./resources/theme/images/video-img.png" alt="">
+                    </figure>
+                    <button type="button" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#videoModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM10.6219 8.41459C10.5562 8.37078 10.479 8.34741 10.4 8.34741C10.1791 8.34741 10 8.52649 10 8.74741V15.2526C10 15.3316 10.0234 15.4088 10.0672 15.4745C10.1897 15.6583 10.4381 15.708 10.6219 15.5854L15.5008 12.3328C15.5447 12.3035 15.5824 12.2658 15.6117 12.2219C15.7343 12.0381 15.6846 11.7897 15.5008 11.6672L10.6219 8.41459Z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php include('./inc/video-modal.php'); ?>
 <?php include('footer.php'); ?>

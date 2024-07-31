@@ -273,7 +273,7 @@ hr {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.overview .image img::after {
+.overview .image::after {
   content: "";
   width: 40%;
   height: 100%;
@@ -544,7 +544,7 @@ hr {
 .solutions .accordion .accordion-item .accordion-header .accordion-button {
   background-color: rgba(var(--clr-four), 1);
   box-shadow: none;
-  color: rgba(var(--clr-one), 1);
+  color: white;
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -559,4 +559,184 @@ hr {
   padding: 5px;
   border-radius: 3px;
   background-size: auto;
+}
+.solutions .accordion .accordion-item .accordion-collapse .accordion-body p {
+  line-height: 1.5;
+  color: rgba(var(--clr-two), 0.6);
+  margin-bottom: 15px;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  padding: 150px 0;
+  position: relative;
+  z-index: 0;
+  background-color: rgba(var(--clr-two), 1);
+}
+.video::after {
+  content: "";
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.video .heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.video .heading p {
+  color: rgba(var(--clr-one), 1);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.video .heading h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.video .heading .btn-rose {
+  width: auto;
+  height: 60px;
+  background-color: rgba(var(--clr-one), 1);
+  color: rgba(var(--clr-two), 1);
+  font-weight: normal;
+  position: relative;
+  z-index: 99;
+  padding: 1rem 1.2rem;
+  border-radius: 0px;
+}
+.video .heading .btn-rose::after {
+  content: "";
+  width: 100%;
+  height: 60px;
+  background-color: var(--clear);
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  z-index: -10;
+  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-bottom: 1px solid rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.video .heading .btn-rose:hover {
+  background-color: white;
+  color: rgba(var(--clr-two), 1);
+  transition: 500ms linear;
+}
+.video .heading .btn-rose:hover::after {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 500ms linear;
+}
+.video .video-wrapper {
+  margin-top: 50px;
+  position: relative;
+  z-index: 0;
+}
+.video .video-wrapper figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.video .video-wrapper .btn-blue {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 60px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.video .video-wrapper .btn-blue::after {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  border-radius: 60px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.video .video-wrapper .btn-blue svg {
+  width: 70px;
+  height: 70px;
+  fill: rgba(var(--clr-two), 1);
+}
+
+.modal .modal-dialog .modal-content .modal-body video {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0 0;
+  background-color: rgba(var(--clr-two), 1);
+}
+.footer figure {
+  margin-bottom: 0;
+}
+.footer figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+
+.copyrights {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin: 0 auto;
+  background-color: rgba(var(--clr-four), 1);
+}
+.copyrights .rights {
+  text-align: left;
+}
+.copyrights .rights p {
+  font-size: 1rem;
+  color: white;
+}
+.copyrights .rights p a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.copyrights .rights p a:hover {
+  text-decoration: underline;
+}
+.copyrights .powered {
+  text-align: right;
+}
+.copyrights .powered p {
+  font-size: 1rem;
+  color: white;
+}
+.copyrights .powered p a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.copyrights .powered p a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=theme-en.css.map */
