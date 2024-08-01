@@ -787,6 +787,37 @@ hr {
   text-decoration: underline;
 }
 
+.top-page {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+  padding: 40px 0;
+  background-color: rgba(var(--clr-one), 1);
+  position: relative;
+  z-index: 0;
+}
+.top-page::after {
+  content: "";
+  width: 370px;
+  height: 40px;
+  margin: 0 auto;
+  background-image: url(../../images/shape-bottom.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.top-page .page-name {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgba(var(--clr-two), 1);
+  font-weight: bold;
+}
+
 @media (min-width: 1280px) and (max-width: 1399.98px) {
   .hero img {
     right: -140px;

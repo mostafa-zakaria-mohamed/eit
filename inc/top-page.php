@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col">
                 <h1 class="page-name">
-                    اسم الصفحة هنا
+                   Page Name Here
                 </h1>
             </div>
         </div>
