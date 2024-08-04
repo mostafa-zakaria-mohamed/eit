@@ -1015,6 +1015,166 @@ hr {
 .page .service-item:hover p {
   color: rgba(255, 255, 255, 0.6);
 }
+.page .project-item {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+.page .project-item figure img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.page .project-item h5 {
+  background-color: rgba(var(--clr-two), 0.8);
+  padding: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  right: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.page .project-item h5 a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
+}
+.page .contact-wrapper {
+  border: 1px solid rgba(var(--clr-one), 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+}
+.page .contact-wrapper .form {
+  width: 50%;
+}
+.page .contact-wrapper .form .heading {
+  margin-bottom: 30px;
+}
+.page .contact-wrapper .form .heading p {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.page .contact-wrapper .form .heading h2 {
+  color: rgba(var(--clr-one), 1);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.page .contact-wrapper .form .form-control {
+  height: 60px;
+  width: 100%;
+  box-shadow: none;
+  border: 0;
+  border-radius: 5px;
+  color: rgba(var(--clr-two), 1);
+}
+.page .contact-wrapper .form .form-control::-moz-placeholder {
+  color: rgba(var(--clr-two), 0.6);
+  text-transform: capitalize;
+}
+.page .contact-wrapper .form .form-control::placeholder {
+  color: rgba(var(--clr-two), 0.6);
+  text-transform: capitalize;
+}
+.page .contact-wrapper .form textarea {
+  min-height: 150px;
+}
+.page .contact-wrapper .form .btn-rose {
+  width: auto;
+  height: 60px;
+  background-color: rgba(var(--clr-one), 1);
+  color: rgba(var(--clr-two), 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  position: relative;
+  z-index: 99;
+  padding: 1rem 1.2rem;
+  border-radius: 0px;
+}
+.page .contact-wrapper .form .btn-rose::after {
+  content: "";
+  width: 100%;
+  height: 60px;
+  background-color: var(--clear);
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  z-index: -10;
+  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-bottom: 1px solid rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.page .contact-wrapper .form .btn-rose:hover {
+  background-color: white;
+  color: rgba(var(--clr-two), 1);
+  transition: 500ms linear;
+}
+.page .contact-wrapper .form .btn-rose:hover::after {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 500ms linear;
+}
+.page .contact-info .heading {
+  margin-bottom: 30px;
+}
+.page .contact-info .heading p {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.page .contact-info .heading h2 {
+  color: rgba(var(--clr-one), 1);
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.page .contact-info .block {
+  margin-bottom: 30px;
+}
+.page .contact-info .block h5 {
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.page .contact-info .block ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.page .contact-info .block ul li {
+  margin-bottom: 10px;
+}
+.page .contact-info .block ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: 500ms linear;
+  text-transform: capitalize;
+}
+.page .contact-info .block ul li a:hover {
+  color: rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.page .contact-info .block ul li a svg {
+  width: 30px;
+  height: 30px;
+}
+.page .contact-info .block ul li p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.page .contact-info .block ul.social {
+  display: flex;
+}
 
 .statistics {
   width: 100%;
