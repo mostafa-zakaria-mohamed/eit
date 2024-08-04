@@ -41,7 +41,7 @@ a:focus, .btn, .btn:focus {
     box-shadow: var(--reset);
 }
 hr {
-    border-top: 1px solid rgba($color: #FFFFFF, $alpha: 0.2);
+    border-top: 1px solid rgba($color: var(--clear), $alpha: 0.2);
 }
 
 //Header
@@ -1106,11 +1106,12 @@ hr {
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
-        padding: 20px;
         border-radius: 10px;
         .form {
             width: 50%;
+            padding:0 20px;
             .heading {
+                padding-top: 40px;
                 margin-bottom: 30px;
                 p {
                     color: rgba($color: #FFFFFF, $alpha: 1.0);
@@ -1177,8 +1178,13 @@ hr {
         }
     }
     .contact-info {
+        width: 50%;
+        padding: 0 20px;
+        border-left: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+        min-height: 640px;
         .heading {
             margin-bottom: 30px;
+            padding-top: 40px;
             p {
                 color: rgba($color: #FFFFFF, $alpha: 1.0);
                 text-transform: uppercase;
