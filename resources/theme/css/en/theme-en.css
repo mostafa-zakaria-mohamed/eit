@@ -805,7 +805,7 @@ hr {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  bottom: -40px;
+  bottom: -39px;
   left: 0;
   right: 0;
   z-index: 0;
@@ -816,24 +816,35 @@ hr {
   color: rgba(var(--clr-two), 1);
   font-weight: bold;
 }
+.top-page .breadcrumb {
+  margin-top: 20px;
+}
+.top-page .breadcrumb .breadcrumb-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+.top-page .breadcrumb .breadcrumb-item a {
+  text-decoration: underline;
+  color: rgba(var(--clr-two), 1);
+}
 
 .page {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 150px 0 100px;
   background-color: rgba(var(--clr-two), 1);
 }
 .page .logo {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 20px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 .page .logo img {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }
@@ -884,7 +895,7 @@ hr {
   transition: 500ms linear;
 }
 .page .wrapper {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 0 30px;
   border-radius: 10px;
   border: 1px solid rgba(var(--clr-one), 1);
@@ -911,7 +922,7 @@ hr {
 }
 .page .wrapper .nav-tabs .nav-item .nav-link::before {
   content: "";
-  width: 80%;
+  width: 60%;
   height: 76px;
   background-color: var(--clear);
   border: 1px solid rgba(var(--clr-one), 1);
@@ -926,7 +937,7 @@ hr {
 }
 .page .wrapper .nav-tabs .nav-item .nav-link::after {
   content: "";
-  width: 80%;
+  width: 60%;
   height: 76px;
   background-color: var(--clear);
   border: 1px solid rgba(var(--clr-one), 1);
@@ -958,6 +969,51 @@ hr {
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+.page .service-item {
+  width: 100%;
+  height: auto;
+  min-height: 316px;
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  margin: 0px auto;
+  padding: 30px;
+  border-radius: 5px;
+  transition: 500ms;
+}
+.page .service-item .figure {
+  margin-bottom: 20px;
+}
+.page .service-item .figure img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page .service-item h4 {
+  margin-bottom: 15px;
+}
+.page .service-item h4 a {
+  color: rgba(var(--clr-two), 1);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 500ms linear;
+}
+.page .service-item p {
+  color: rgba(var(--clr-two), 0.6);
+}
+.page .service-item:hover {
+  background-color: rgba(var(--clr-two), 1);
+  box-shadow: rgba(33, 24, 96, 0.25) 5px 5px 15px 0px;
+  transition: 500ms;
+}
+.page .service-item:hover h4 a {
+  color: rgba(var(--clr-one), 1);
+}
+.page .service-item:hover p {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media (min-width: 1280px) and (max-width: 1399.98px) {

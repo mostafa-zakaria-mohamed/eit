@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+
 <?php include('./inc/top-page.php'); ?>
 
 <div id="about-page" class="page">
@@ -69,5 +70,7 @@
         </div>
     </div>
 </div>
+
+<?php include('./inc/solution.php'); ?>
 
 <?php include('footer.php'); ?>
