@@ -930,6 +930,84 @@ hr {
             }
         }
     }
+    .wrapper {
+        margin-top: 50px;
+        padding: 0 30px;
+        border-radius: 10px;
+        border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+        .nav-tabs {
+            border: var(--reset);
+            .nav-item {
+                margin: auto 30px;
+                position: relative;
+                z-index: 0;
+                .nav-link {
+                    width: 300px;
+                    height: 76px;
+                    flex-shrink: 0;
+                    background-color: var(--clear);
+                    border: var(--reset);
+                    text-transform: uppercase;
+                    font-family: "Orbitron", sans-serif;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                    font-size: 1.125rem;
+                    font-weight: bold;
+                    &::before {
+                        content: "";
+                        width: 80%;
+                        height: 76px;
+                        background-color: var(--clear);
+                        border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index: -2;
+                        transform: skew(30deg, 0deg);
+                        border-radius: 0 0 0 15px;
+                        border-right: 0;
+                        border-top: 0;
+                    }
+                    &::after {
+                        content: "";
+                        width: 80%;
+                        height: 76px;
+                        background-color: var(--clear);
+                        border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        z-index: -2;
+                        transform: skew(160deg, 0deg);
+                        border-radius: 0 0 15px 0;
+                        border-left: 0;
+                        border-top: 0;
+                    }
+                    &.active {
+                        color: rgba($color: var(--clr-two), $alpha: 1.0);
+                        &::before {
+                            background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                        }
+                        &::after {
+                            background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                        }
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                padding: 30px;
+                .content {
+                    text-align: center;
+                    p {
+                        line-height: 1.5;
+                        color: rgba($color: #FFFFFF, $alpha: 0.7);
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
