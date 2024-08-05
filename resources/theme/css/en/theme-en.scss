@@ -737,6 +737,7 @@ hr {
     padding: 50px 0 0;
     overflow: hidden;
     background-color: rgba($color: var(--clr-two), $alpha: 1.0);
+    border-top: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
     figure {
         margin-bottom: 0;
         img {
@@ -1231,6 +1232,46 @@ hr {
                 }
                 &.social {
                     display: flex;
+                }
+            }
+        }
+    }
+    .content {
+        h1, h2, h3, h4, h5, h6 {
+            color: rgba($color: var(--clr-one), $alpha: 1.0);
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.5;
+            color: rgba($color: #FFFFFF, $alpha: 0.7);
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: circle;
+            color: rgba($color: var(--clr-one), $alpha: 1.0);
+            li {
+                margin-bottom: 20px;
+                p {
+                    a {
+                        text-decoration: none;
+                        color: rgba($color: var(--clr-one), $alpha: 1.0);
+                        transition: 500ms linear;
+                        &:hover {
+                            text-decoration: underline;
+                            transition: 500ms linear;
+                        }
+                    }
+                }
+            }
+            li {
+                a {
+                    text-decoration: none;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                    transition: 500ms linear;
+                    &:hover {
+                        text-decoration: underline;
+                        transition: 500ms linear;
+                    }
                 }
             }
         }

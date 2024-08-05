@@ -693,6 +693,7 @@ hr {
   padding: 50px 0 0;
   overflow: hidden;
   background-color: rgba(var(--clr-two), 1);
+  border-top: 1px solid rgba(var(--clr-one), 1);
 }
 .footer figure {
   margin-bottom: 0;
@@ -1182,6 +1183,40 @@ hr {
 }
 .page .contact-info .block ul.social {
   display: flex;
+}
+.page .content h1, .page .content h2, .page .content h3, .page .content h4, .page .content h5, .page .content h6 {
+  color: rgba(var(--clr-one), 1);
+  margin-bottom: 20px;
+}
+.page .content p {
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+.page .content ul {
+  list-style-type: circle;
+  color: rgba(var(--clr-one), 1);
+}
+.page .content ul li {
+  margin-bottom: 20px;
+}
+.page .content ul li p a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.page .content ul li p a:hover {
+  text-decoration: underline;
+  transition: 500ms linear;
+}
+.page .content ul li a {
+  text-decoration: none;
+  color: rgba(var(--clr-one), 1);
+  transition: 500ms linear;
+}
+.page .content ul li a:hover {
+  text-decoration: underline;
+  transition: 500ms linear;
 }
 
 .statistics {
