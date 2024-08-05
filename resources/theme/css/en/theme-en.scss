@@ -1341,17 +1341,479 @@ hr {
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    
+    .header {
+        .navbar {
+            .wrapper {
+                display: flex;
+            }
+            .navbar-toggler {
+                border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+                box-shadow: none!important;
+                .navbar-toggler-icon {
+                    background-image: none;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                }
+            }
+        }
+    }
+    .hero {
+        height: 700px;
+        &::after {
+            height: 400px;
+        }
+        img {
+            height: 375px;
+            top: auto;
+            bottom: 0;
+        }
+        .text {
+            width: 100%;
+            padding: 50px 0;
+            h1 {
+                font-size: 3.125rem;
+            }
+            .btn-blue {
+                width: 98%;
+            }
+        }
+    }
+    .overview {
+        padding: 50px 0;
+        .image {
+            display: none;
+        }
+        .text-wrapper {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .services {
+        padding: 50px 0;
+    }
+    .latest-projects {
+        padding: 50px 0;
+        .heading {
+            padding: 50px 0;
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .video {
+        padding: 50px 0;
+        &::after {
+            height: 42%;
+        }
+        .heading {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+        .video-wrapper {
+            margin-top: 0;
+            .btn-blue {
+                top: 15%;
+            }
+        }
+    }
+    .footer {
+        .block {
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 48%;
+        }
+    }
+    .top-page {
+        &::after {
+            width: 300px;
+        }
+    }
+    .page {
+        padding: 100px 0;
+        .about-text {
+            margin-top: 50px;
+            .btn-rose {
+                width: 98%;
+            }
+        }
+        .wrapper {
+            padding: 0 10px;
+            .nav-tabs {
+                display: block;
+                .nav-item {
+                    display: inline-block;
+                    margin: 0 5px;
+                    .nav-link {
+                        width: auto;
+                        height: 60px;
+                        padding: 0 10px;
+                        font-size: 1.125rem;
+                        &.active {
+                            background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                            border-radius: 0 0 5px 5px;
+                        }
+                        &::after,
+                        &::before {
+                            content: unset;
+                        }
+                        
+                    }
+                }
+            }
+            .tab-content {
+                .tab-pane {
+                    padding: 30px 15px;
+                }
+            }
+        }
+        .service-item {
+            margin: 15px auto;
+        }
+        .contact-wrapper {
+            display: block;
+            .form {
+                width: 100%;
+                .btn-rose {
+                    width: 98%;
+                }
+            }
+            .contact-info {
+                width: 100%;
+            }
+        }
+    }
+    .statistics {
+        .stats-wrapper {
+            display: block;
+            .stats-item {
+                display: inline-block;
+                vertical-align: text-top;
+                width: 48%;
+                h3 {
+                    font-size: 3rem;
+                }
+                span {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .header {
+        .navbar {
+            .wrapper {
+                display: flex;
+            }
+            .navbar-toggler {
+                border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+                box-shadow: none!important;
+                .navbar-toggler-icon {
+                    background-image: none;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                }
+            }
+        }
+    }
+    .hero {
+        height: 700px;
+        &::after {
+            height: 400px;
+        }
+        img {
+            height: 375px;
+            top: auto;
+            bottom: 0;
+        }
+        .text {
+            width: 100%;
+            padding: 50px 0;
+            h1 {
+                font-size: 3.125rem;
+            }
+            .btn-blue {
+                width: 98%;
+            }
+        }
+    }
+    .overview {
+        padding: 50px 0;
+        .image {
+            display: none;
+        }
+        .text-wrapper {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .services {
+        padding: 50px 0;
+    }
+    .latest-projects {
+        padding: 50px 0;
+        .heading {
+            padding: 50px 0;
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .video {
+        padding: 50px 0;
+        &::after {
+            height: 42%;
+        }
+        .heading {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+        .video-wrapper {
+            margin-top: 0;
+            .btn-blue {
+                top: 15%;
+            }
+        }
+    }
+    .footer {
+        .block {
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 48%;
+        }
+    }
+    .top-page {
+        &::after {
+            width: 300px;
+        }
+    }
+    .page {
+        padding: 100px 0;
+        .about-text {
+            margin-top: 50px;
+            .btn-rose {
+                width: 98%;
+            }
+        }
+        .wrapper {
+            padding: 0 10px;
+            .nav-tabs {
+                display: block;
+                .nav-item {
+                    display: inline-block;
+                    margin: 0 5px;
+                    .nav-link {
+                        width: auto;
+                        height: 60px;
+                        padding: 0 10px;
+                        font-size: 1.125rem;
+                        &.active {
+                            background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                            border-radius: 0 0 5px 5px;
+                        }
+                        &::after,
+                        &::before {
+                            content: unset;
+                        }
+                        
+                    }
+                }
+            }
+            .tab-content {
+                .tab-pane {
+                    padding: 30px 15px;
+                }
+            }
+        }
+        .service-item {
+            margin: 15px auto;
+        }
+        .contact-wrapper {
+            display: block;
+            .form {
+                width: 100%;
+                .btn-rose {
+                    width: 98%;
+                }
+            }
+            .contact-info {
+                width: 100%;
+            }
+        }
+    }
+    .statistics {
+        .stats-wrapper {
+            display: block;
+            .stats-item {
+                display: inline-block;
+                vertical-align: text-top;
+                width: 48%;
+                h3 {
+                    font-size: 3rem;
+                }
+                span {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
 }
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .header {
+        .navbar {
+            .wrapper {
+                display: flex;
+            }
+            .navbar-toggler {
+                border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
+                box-shadow: none!important;
+                .navbar-toggler-icon {
+                    background-image: none;
+                    color: rgba($color: var(--clr-one), $alpha: 1.0);
+                }
+            }
+        }
+    }
+    .hero {
+        &::after {
+            height: 400px;
+        }
+        img {
+            height: 412px;
+        }
+        .text {
+            padding: 50px 0;
+            h1 {
+                font-size: 3.125rem;
+            }
+        }
+    }
+    .overview {
+        padding: 50px 0;
+        .image {
+            display: none;
+        }
+        .text-wrapper {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .services {
+        padding: 50px 0;
+    }
+    .latest-projects {
+        padding: 50px 0;
+        .heading {
+            padding: 50px 0;
+            .btn-rose {
+                width: 98%;
+            }
+        }
+    }
+    .video {
+        padding: 50px 0;
+        &::after {
+            height: 42%;
+        }
+        .heading {
+            .btn-rose {
+                width: 98%;
+            }
+        }
+        .video-wrapper {
+            margin-top: 0;
+            .btn-blue {
+                top: 30%;
+            }
+        }
+    }
+    .footer {
+        .block {
+            margin-bottom: 30px;
+            display: inline-block;
+            width: 48%;
+        }
+    }
+    .copyrights {
+        .rights {
+            text-align: center;
+        }
+        .powered {
+            text-align: center;
+        }
+    }
+    .top-page {
+        &::after {
+            width: 300px;
+        }
+    }
+    .page {
+        padding: 100px 0;
+        .about-text {
+            margin-top: 50px;
+        }
+        .wrapper {
+            .nav-tabs {
+                .nav-item {
+                    .nav-link {
+                        width: auto;
+                        height: 60px;
+                        padding: 0 10px;
+                        font-size: 1.125rem;
+                        &.active {
+                            background-color: rgba($color: var(--clr-one), $alpha: 1.0);
+                            border-radius: 0 0 5px 5px;
+                        }
+                        &::after,
+                        &::before {
+                            content: unset;
+                        }
+                        
+                    }
+                }
+            }
+            .tab-content {
+                .tab-pane {
+                    padding: 30px 15px;
+                }
+            }
+        }
+        .service-item {
+            margin: 15px auto;
+        }
+        .contact-wrapper {
+            display: block;
+            .form {
+                width: 100%;
+            }
+            .contact-info {
+                width: 100%;
+            }
+        }
+    }
+    .statistics {
+        .stats-wrapper {
+            display: block;
+            .stats-item {
+                display: inline-block;
+                vertical-align: text-top;
+                width: 48%;
+                h3 {
+                    font-size: 3rem;
+                }
+                span {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
 }
 
 // `xl` applies to large devices (desktops, less than 1200px)
@@ -1373,7 +1835,18 @@ hr {
                 height: 490px;
             }
             &::after {
-                width: 42%;
+                width: 45.5%;
+            }
+        }
+    }
+    .page {
+        .wrapper {
+            .nav-tabs {
+                .nav-item {
+                    .nav-link {
+                        width: 290px;
+                    }
+                }
             }
         }
     }

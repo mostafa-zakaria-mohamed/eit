@@ -42,72 +42,17 @@ $(document).ready(function() {
         },
         breakpoints: {
             360: {
-                spaceBetween: 10,
-            },
-            640: {
-                spaceBetween: 10,
-            },
-            768: {
-                spaceBetween: 20,
-            },
-            1024: {
-                spaceBetween: 20,
-            },
-        },
-    });
-
-
-    // Partner Slider
-    var swiper = new Swiper(".partnerSwiper", {
-        slidesPerView: 5,
-        spaceBetween: 20,
-        pagination: {
-            el: ".swiper-pagination",
-        },
-        breakpoints: {
-            360: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-            },
-            640: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-            },
-            768: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-            },
-            1024: {
-            slidesPerView: 5,
-            spaceBetween: 20,
-            },
-        },
-    });
-
-    // banner Slider
-    var swiper = new Swiper(".bannerSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            360: {
                 slidesPerView: 1,
                 spaceBetween: 10,
             },
             640: {
-            slidesPerView: 1,
-            spaceBetween: 10,
+                spaceBetween: 10,
             },
             768: {
-            slidesPerView: 1,
-            spaceBetween: 20,
+                spaceBetween: 20,
             },
             1024: {
-            slidesPerView: 1,
-            spaceBetween: 20,
+                spaceBetween: 20,
             },
         },
     });
@@ -149,20 +94,6 @@ $(document).ready(function() {
         a = 1;
 
     }
-    });
-    
-    // Banner Image Slider
-    var swiper = new Swiper(".bannerSwiper", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        autoplay: {
-            delay: 4500,
-            disableOnInteraction: false,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
     });
 
 });

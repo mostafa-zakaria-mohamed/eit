@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-6">
+            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
