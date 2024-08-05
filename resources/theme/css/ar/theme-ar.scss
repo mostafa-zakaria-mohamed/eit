@@ -76,7 +76,7 @@ hr {
                             height: 1px;
                             background-color: rgba($color: var(--clear), $alpha: 1.0);
                             position: absolute;
-                            left: 8px;
+                            right: 8px;
                             bottom: 0;
                             z-index: 0;
                         }
@@ -92,7 +92,7 @@ hr {
                                 height: 1px;
                                 background-color: rgba($color: var(--clr-one), $alpha: 1.0);
                                 position: absolute;
-                                left: 8px;
+                                right: 8px;
                                 bottom: 0;
                                 z-index: 0;
                             }
@@ -153,7 +153,7 @@ hr {
         height: 785px;
         object-fit: contain;
         position: absolute;
-        right: 0px;
+        left: 0px;
         top: 0px;
         z-index: 0;
         margin: 0px auto;
@@ -189,10 +189,10 @@ hr {
                 height: 60px;
                 background-color: var(--clear);
                 position: absolute;
-                left: 10px;
+                right: 10px;
                 bottom: -10px;
                 z-index: -10;
-                border-right: 1px solid rgba(var(--clr-two), 1);
+                border-left: 1px solid rgba(var(--clr-two), 1);
                 border-bottom: 1px solid rgba(var(--clr-two), 1);
                 transition: 500ms linear;
             }
@@ -201,7 +201,7 @@ hr {
                 color: rgba(var(--clr-two), 1);
                 transition: 500ms linear;
                 &::after {
-                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     transition: 500ms linear;
                 }
@@ -252,10 +252,10 @@ hr {
                 height: 60px;
                 background-color: var(--clear);
                 position: absolute;
-                left: 10px;
+                right: 10px;
                 bottom: -10px;
                 z-index: -10;
-                border-right: 1px solid rgba(var(--clr-one), 1);
+                border-left: 1px solid rgba(var(--clr-one), 1);
                 border-bottom: 1px solid rgba(var(--clr-one), 1);
                 transition: 500ms linear;
             }
@@ -264,7 +264,7 @@ hr {
                 color: rgba(var(--clr-two), 1);
                 transition: 500ms linear;
                 &::after {
-                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     transition: 500ms linear;
                 }
@@ -274,11 +274,11 @@ hr {
     .image {
         width: 100%;
         position: absolute;
-        right: 0px;
-        left: auto;
+        left: 0px;
+        right: auto;
         top: 0px;
         z-index: -1;
-        text-align: right;
+        text-align: left;
         img {
             width: auto;
             height: 645px;
@@ -289,7 +289,7 @@ hr {
             width: 40%;
             height: 100%;
             position: absolute;
-            right: 0px;
+            left: 0px;
             top: 0px;
             z-index: 99;
             background: linear-gradient(to right, rgb(33, 24, 96) 0%, rgba(33, 24, 96, 0.1) 100%);
@@ -383,7 +383,7 @@ hr {
                     &:hover {
                         background-color: rgba(var(--clr-two), 1);
                         box-shadow: rgba(33, 24, 96, 0.25) 5px 5px 15px 0px;
-                        transition: 500ms;
+                        transition: 500ms linear;
                         h4 {
                             a {
                                 color: rgba(var(--clr-one), 1);
@@ -445,10 +445,10 @@ hr {
                 height: 60px;
                 background-color: var(--clear);
                 position: absolute;
-                left: 10px;
+                right: 10px;
                 bottom: -10px;
                 z-index: -10;
-                border-right: 1px solid rgba(var(--clr-one), 1);
+                border-left: 1px solid rgba(var(--clr-one), 1);
                 border-bottom: 1px solid rgba(var(--clr-one), 1);
                 transition: 500ms linear;
             }
@@ -457,7 +457,7 @@ hr {
                 color: rgba(var(--clr-two), 1);
                 transition: 500ms linear;
                 &::after {
-                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     transition: 500ms linear;
                 }
@@ -565,7 +565,7 @@ hr {
     }
     .accordion {
         .accordion-item {
-            border: ipx solid var(--clear);
+            border: 1px solid var(--clear);
             margin-bottom: 15px;
             .accordion-header {
                 .accordion-button {
@@ -650,10 +650,10 @@ hr {
                 height: 60px;
                 background-color: var(--clear);
                 position: absolute;
-                left: 10px;
+                right: 10px;
                 bottom: -10px;
                 z-index: -10;
-                border-right: 1px solid rgba(var(--clr-one), 1);
+                border-left: 1px solid rgba(var(--clr-one), 1);
                 border-bottom: 1px solid rgba(var(--clr-one), 1);
                 transition: 500ms linear;
             }
@@ -662,7 +662,7 @@ hr {
                 color: rgba(var(--clr-two), 1);
                 transition: 500ms linear;
                 &::after {
-                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     transition: 500ms linear;
                 }
@@ -787,7 +787,7 @@ hr {
                 display: flex;
                 justify-content: flex-start;
                 li {
-                    margin-right: 5px;
+                    margin-left: 5px;
                 }
             }
         }
@@ -802,7 +802,7 @@ hr {
     margin: 0 auto;
     background-color: rgba($color: var(--clr-four), $alpha: 1.0);
     .rights {
-        text-align: left;
+        text-align: right;
         p {
             font-size: 1rem;
             color: rgba($color: #FFFFFF, $alpha: 1.0);
@@ -817,7 +817,7 @@ hr {
         }
     }
     .powered {
-        text-align: right;
+        text-align: left;
         p {
             font-size: 1rem;
             color: rgba($color: #FFFFFF, $alpha: 1.0);
@@ -924,10 +924,10 @@ hr {
                 height: 60px;
                 background-color: var(--clear);
                 position: absolute;
-                left: 10px;
+                right: 10px;
                 bottom: -10px;
                 z-index: -10;
-                border-right: 1px solid rgba(var(--clr-one), 1);
+                border-left: 1px solid rgba(var(--clr-one), 1);
                 border-bottom: 1px solid rgba(var(--clr-one), 1);
                 transition: 500ms linear;
             }
@@ -936,7 +936,7 @@ hr {
                 color: rgba(var(--clr-two), 1);
                 transition: 500ms linear;
                 &::after {
-                    border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                    border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                     transition: 500ms linear;
                 }
@@ -978,7 +978,7 @@ hr {
                         z-index: -2;
                         transform: skew(30deg, 0deg);
                         border-radius: 0 0 0 15px;
-                        border-right: 0;
+                        border-left: 0;
                         border-top: 0;
                     }
                     &::after {
@@ -988,12 +988,12 @@ hr {
                         background-color: var(--clear);
                         border: 1px solid rgba($color: var(--clr-one), $alpha: 1.0);
                         position: absolute;
-                        right: 0;
+                        left: 0;
                         top: 0;
                         z-index: -2;
                         transform: skew(160deg, 0deg);
                         border-radius: 0 0 15px 0;
-                        border-left: 0;
+                        border-right: 0;
                         border-top: 0;
                     }
                     &.active {
@@ -1159,10 +1159,10 @@ hr {
                     height: 60px;
                     background-color: var(--clear);
                     position: absolute;
-                    left: 10px;
+                    right: 10px;
                     bottom: -10px;
                     z-index: -10;
-                    border-right: 1px solid rgba(var(--clr-one), 1);
+                    border-left: 1px solid rgba(var(--clr-one), 1);
                     border-bottom: 1px solid rgba(var(--clr-one), 1);
                     transition: 500ms linear;
                 }
@@ -1171,7 +1171,7 @@ hr {
                     color: rgba(var(--clr-two), 1);
                     transition: 500ms linear;
                     &::after {
-                        border-right: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
+                        border-left: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                         border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 1.0);
                         transition: 500ms linear;
                     }
@@ -1331,7 +1331,6 @@ hr {
                 font-weight: bold;
                 color: rgba($color: #FFFFFF, $alpha: 1.0);
                 display: inline-block;
-
             }
             p {
                 color: rgba($color: var(--clr-two), $alpha: 1.0);

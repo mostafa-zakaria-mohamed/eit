@@ -77,7 +77,7 @@ hr {
   height: 1px;
   background-color: rgba(var(--clear), 1);
   position: absolute;
-  left: 8px;
+  right: 8px;
   bottom: 0;
   z-index: 0;
 }
@@ -94,7 +94,7 @@ hr {
   height: 1px;
   background-color: rgba(var(--clr-one), 1);
   position: absolute;
-  left: 8px;
+  right: 8px;
   bottom: 0;
   z-index: 0;
 }
@@ -144,7 +144,7 @@ hr {
   -o-object-fit: contain;
      object-fit: contain;
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: 0px;
   z-index: 0;
   margin: 0px auto;
@@ -182,10 +182,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-two), 1);
+  border-left: 1px solid rgba(var(--clr-two), 1);
   border-bottom: 1px solid rgba(var(--clr-two), 1);
   transition: 500ms linear;
 }
@@ -195,7 +195,7 @@ hr {
   transition: 500ms linear;
 }
 .hero .text .btn-blue:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
@@ -244,10 +244,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-left: 1px solid rgba(var(--clr-one), 1);
   border-bottom: 1px solid rgba(var(--clr-one), 1);
   transition: 500ms linear;
 }
@@ -257,18 +257,18 @@ hr {
   transition: 500ms linear;
 }
 .overview .text-wrapper .btn-rose:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
 .overview .image {
   width: 100%;
   position: absolute;
-  right: 0px;
-  left: auto;
+  left: 0px;
+  right: auto;
   top: 0px;
   z-index: -1;
-  text-align: right;
+  text-align: left;
 }
 .overview .image img {
   width: auto;
@@ -281,7 +281,7 @@ hr {
   width: 40%;
   height: 100%;
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: 0px;
   z-index: 99;
   background: linear-gradient(to right, rgb(33, 24, 96) 0%, rgba(33, 24, 96, 0.1) 100%);
@@ -374,7 +374,7 @@ hr {
 .services .swiper .swiper-wrapper .swiper-slide .service-item:hover {
   background-color: rgba(var(--clr-two), 1);
   box-shadow: rgba(33, 24, 96, 0.25) 5px 5px 15px 0px;
-  transition: 500ms;
+  transition: 500ms linear;
 }
 .services .swiper .swiper-wrapper .swiper-slide .service-item:hover h4 a {
   color: rgba(var(--clr-one), 1);
@@ -431,10 +431,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-left: 1px solid rgba(var(--clr-one), 1);
   border-bottom: 1px solid rgba(var(--clr-one), 1);
   transition: 500ms linear;
 }
@@ -444,7 +444,7 @@ hr {
   transition: 500ms linear;
 }
 .latest-projects .heading .btn-rose:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
@@ -541,7 +541,7 @@ hr {
   font-size: 2.5rem;
 }
 .solutions .accordion .accordion-item {
-  border: ipx solid var(--clear);
+  border: 1px solid var(--clear);
   margin-bottom: 15px;
 }
 .solutions .accordion .accordion-item .accordion-header .accordion-button {
@@ -620,10 +620,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-left: 1px solid rgba(var(--clr-one), 1);
   border-bottom: 1px solid rgba(var(--clr-one), 1);
   transition: 500ms linear;
 }
@@ -633,7 +633,7 @@ hr {
   transition: 500ms linear;
 }
 .video .heading .btn-rose:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
@@ -748,7 +748,7 @@ hr {
   justify-content: flex-start;
 }
 .footer .block ul.social-media li {
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .copyrights {
@@ -759,7 +759,7 @@ hr {
   background-color: rgba(var(--clr-four), 1);
 }
 .copyrights .rights {
-  text-align: left;
+  text-align: right;
 }
 .copyrights .rights p {
   font-size: 1rem;
@@ -774,7 +774,7 @@ hr {
   text-decoration: underline;
 }
 .copyrights .powered {
-  text-align: right;
+  text-align: left;
 }
 .copyrights .powered p {
   font-size: 1rem;
@@ -879,10 +879,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-left: 1px solid rgba(var(--clr-one), 1);
   border-bottom: 1px solid rgba(var(--clr-one), 1);
   transition: 500ms linear;
 }
@@ -892,7 +892,7 @@ hr {
   transition: 500ms linear;
 }
 .page .about-text .btn-rose:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
@@ -934,7 +934,7 @@ hr {
   z-index: -2;
   transform: skew(30deg, 0deg);
   border-radius: 0 0 0 15px;
-  border-right: 0;
+  border-left: 0;
   border-top: 0;
 }
 .page .wrapper .nav-tabs .nav-item .nav-link::after {
@@ -944,12 +944,12 @@ hr {
   background-color: var(--clear);
   border: 1px solid rgba(var(--clr-one), 1);
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   z-index: -2;
   transform: skew(160deg, 0deg);
   border-radius: 0 0 15px 0;
-  border-left: 0;
+  border-right: 0;
   border-top: 0;
 }
 .page .wrapper .nav-tabs .nav-item .nav-link.active {
@@ -1110,10 +1110,10 @@ hr {
   height: 60px;
   background-color: var(--clear);
   position: absolute;
-  left: 10px;
+  right: 10px;
   bottom: -10px;
   z-index: -10;
-  border-right: 1px solid rgba(var(--clr-one), 1);
+  border-left: 1px solid rgba(var(--clr-one), 1);
   border-bottom: 1px solid rgba(var(--clr-one), 1);
   transition: 500ms linear;
 }
@@ -1123,7 +1123,7 @@ hr {
   transition: 500ms linear;
 }
 .page .contact-wrapper .form .btn-rose:hover::after {
-  border-right: 1px solid white;
+  border-left: 1px solid white;
   border-bottom: 1px solid white;
   transition: 500ms linear;
 }
