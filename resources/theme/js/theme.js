@@ -36,10 +36,10 @@ $(document).ready(function() {
         pagination: {
             el: ".swiper-pagination",
         },
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 2000,
+        //     disableOnInteraction: false,
+        // },
         breakpoints: {
             360: {
                 slidesPerView: 1,
